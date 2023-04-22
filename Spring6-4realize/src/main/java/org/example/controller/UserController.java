@@ -2,10 +2,8 @@ package org.example.controller;
 
 import org.example.bean.impl.AnnotationApplicationContext;
 import org.example.dao.UserDao;
-import org.example.zhujie.Bean;
 import org.example.zhujie.Di;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 
 public class UserController {
 
