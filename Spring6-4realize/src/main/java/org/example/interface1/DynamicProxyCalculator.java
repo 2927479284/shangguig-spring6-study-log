@@ -6,6 +6,8 @@ package org.example.interface1;
 public class DynamicProxyCalculator {
 
     public static void main(String[] args) {
-
+        ProxyFactory proxyFactory = new ProxyFactory(new CaiXuKun());
+        Star proxy = (Star) proxyFactory.getProxy();
+        proxy.changGe();
     }
 }

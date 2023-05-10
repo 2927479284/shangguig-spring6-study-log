@@ -13,6 +13,7 @@
         <module>spring6-2Bean.xml</module>
         <module>Spring6-3annotate</module>
         <module>Spring6-4realize</module>
+        <module>spring6-5Aop</module>
     </modules>
 
     <properties>
@@ -28,7 +29,6 @@
             <artifactId>spring-context</artifactId>
             <version>6.0.2</version>
         </dependency>
-
         <!--junit5测试-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -53,6 +53,19 @@
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j2-impl</artifactId>
             <version>2.19.0</version>
+        </dependency>
+
+        <!--spring aspects依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>6.0.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
         </dependency>
     </dependencies>
 
