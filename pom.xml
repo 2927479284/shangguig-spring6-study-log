@@ -14,6 +14,8 @@
         <module>Spring6-3annotate</module>
         <module>Spring6-4realize</module>
         <module>spring6-5Aop</module>
+        <module>spring6-6Junit</module>
+        <module>spring6-7JDBC-tx</module>
     </modules>
 
     <properties>
@@ -66,6 +68,39 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.24</version>
+        </dependency>
+
+        <!--spring对junit的支持相关依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>6.0.2</version>
+        </dependency>
+
+        <!--junit5测试-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.9.0</version>
+        </dependency>
+
+        <!--spring jdbc  Spring 持久化层支持jar包-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>6.0.2</version>
+        </dependency>
+        <!-- MySQL驱动 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
+        </dependency>
+        <!-- 数据源 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.2.15</version>
         </dependency>
     </dependencies>
 
